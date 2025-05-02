@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Praktek HTML dan JavaScript</title>
+</head>
+<body>
+  <h2>Selamat Datang di Praktek HTML dan JavaScript</h2>
+  <p>Klik tombol di bawah untuk mengubah teks ini.</p>
+
+  <button onclick="ubahTeks()">Ubah Teks</button>
+  <button onclick="tampilkanAlert()">Tampilkan Alert</button>
+
+  <script>
+    function ubahTeks() {
+      document.querySelector("p").innerText = "Teks telah diubah menggunakan JavaScript!";
+    }
+
+    function tampilkanAlert() {
+      alert("Ini adalah alert dari JavaScript!");
+    }
+  </script>
+</body>
+</html>
